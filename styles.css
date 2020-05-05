@@ -8,32 +8,25 @@ body {
   background-color: #011f3f;
 }
 
-#level-title {
-  font-family: "Press Start 2P", cursive;
-  font-size: 3rem;
-  margin: 5%;
-  color: #fef2bf;
-}
-
 .btn {
   position: absolute;
   top: 50%;
   left: 50%;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
+  height: 35vmin;
+  width: 35vmin;
+  border: 2vmin solid black;
   border-radius: 15%;
   cursor: pointer;
 }
 
 #start {
   font-family: "Press Start 2P", cursive;
-  font-size: 1rem;
+  font-size: 3vmin;
   margin: auto;
   color: #fef2bf;
-  height: 100px;
-  width: 100px;
+  height: 20vmin;
+  width: 20vmin;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -85,8 +78,7 @@ body {
 }
 
 .pressed {
-  box-shadow: 0 0 20px white;
+  box-shadow: 0 0 2vmin white;
   background-color: white;
   color: black;
 }
-
