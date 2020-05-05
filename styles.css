@@ -1,0 +1,92 @@
+html,
+body {
+    overscroll-behavior-y: contain;
+}
+
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+#start {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  margin: auto;
+  color: #fef2bf;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+}
+
+.start {
+  background-color: orange;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.green {
+  background-color: green;
+  border-top-left-radius: 100%;
+  transform: translate(-100%, -100%);
+
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 100%;
+  transform: translate(0, -100%);
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+  transform: translate(-100%, 0);
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+  /* transform: translate(100%, 100%); */
+}
+
+.unavailable {
+  background-color: gray;
+  cursor: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: white;
+  color: black;
+}
+
